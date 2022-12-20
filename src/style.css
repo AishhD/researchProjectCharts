@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+#gannt_div {
+    margin: 2em;
+    width: 50%;
+    flex: 1 1 auto;
+}
+
+#title {
+    text-align: center;
+    flex: 0 1 auto;
+}
